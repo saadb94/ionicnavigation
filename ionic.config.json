@@ -1,5 +1,7 @@
 {
   "name": "ionicnavigation",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

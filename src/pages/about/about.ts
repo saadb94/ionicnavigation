@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {ContactPage} from '../contact/contact'
 import { HomePage } from '../home/home';
+//import {ToastController} from "ionic-angular";
 
 /**
  * Generated class for the AboutPage page.
@@ -27,8 +28,8 @@ export class AboutPage {
   goBack(){
     if(this.navCtrl.getPrevious().name=="ContactPage"){
       this.navCtrl.popTo(HomePage);
-      
     }
+    
     console.log(this.navCtrl.getPrevious().name)
     this.navCtrl.pop();
   }
